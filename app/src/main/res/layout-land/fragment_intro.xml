@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stageback"
+    android:orientation="horizontal"
+    tools:context=".fragments.IntroFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:background="#0000"
+            android:foregroundGravity="top"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="16dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/text_on_intro" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/buttonPlay"
+            android:soundEffectsEnabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="32dp"
+            android:background="#0000"
+            android:layout_weight="1"
+            android:src="@drawable/play_btn"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/buttonInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:soundEffectsEnabled="false"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:src="@drawable/info_btn"
+            android:scaleType="fitCenter"
+            android:layout_margin="32dp"
+/>
+
+        <ImageButton
+            android:id="@+id/buttonSettings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:soundEffectsEnabled="false"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/settings"
+            android:layout_margin="32dp"/>
+    </LinearLayout>
+
+</LinearLayout>

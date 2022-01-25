@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/stageback"
+    tools:context=".fragments.SettingsFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewMusicVolume"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/vcr"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:textColor="@color/white"
+                android:layout_weight="2"
+
+                android:text="@string/music_volume" />
+
+            <SeekBar
+                android:id="@+id/seekBarMusicVolume"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="2.1"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewSoundsVolume"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:fontFamily="@font/vcr"
+                android:textSize="25sp"
+                android:layout_margin="8dp"
+                android:textColor="@color/white"
+                android:text="@string/sounds_of_buttons_volume" />
+
+            <SeekBar
+                android:id="@+id/seekBarSoundsVolume"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.1"
+                android:max="@integer/max_volume"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:id="@+id/textViewSoundsCharactersVolume"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:fontFamily="@font/vcr"
+                android:textSize="25sp"
+                android:layout_margin="8dp"
+                android:textColor="@color/white"
+                android:text="@string/characters_sounds_volume" />
+
+            <SeekBar
+                android:id="@+id/seekBarSoundsCharactersVolume"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.1"
+                android:max="@integer/max_volume"
+                android:layout_margin="8dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:soundEffectsEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_gravity="left"
+        android:scaleType="fitStart"
+        android:background="#0000"
+        android:src="@drawable/back_btn" />
+</LinearLayout>
