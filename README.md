@@ -10,8 +10,7 @@ Remake of famous game Friyday Night Funkin
 Фоновыя музыка воспроизводится с помощью Service, который запускается в MainActivity и к которому подключается фрагмент.
 В приложение добавлено два вида рекламы: баннер, который постоянно находится внизу и всплывающий экран перед просмотром нового персонажа.
 ## Примеры изображений
-![image](https://user-images.githubusercontent.com/72208045/157598377-49b677cf-75bc-4491-93a4-7e9d4e68520f.png)
-![image](https://user-images.githubusercontent.com/72208045/157598430-93601b35-5055-45af-bfa8-addb531e9930.png)
-![image](https://user-images.githubusercontent.com/72208045/157598600-3550c941-5b6b-44c9-a285-272f26a61492.png)
+![image](https://user-images.githubusercontent.com/72208045/157599502-171b621d-f907-4389-8090-dd0923494c56.png)
+
 ## Заключение
 Приложение было выставлено в GooglePlay и подключено к монетизации. Было скачано 10к раз.
